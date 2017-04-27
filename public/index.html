@@ -1,0 +1,16 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div ng-app="app">
+            <div ng-controller="FooCtrl as fc">
+                {{ fc.name }}
+            <button type="button" name="button" ng-click="fc.setName()">Haggy</button>
+            </div>
+        </div>
+
+        <script src="/angular/angular.min.js" charset="utf-8"></script>
+        <script src="/assets/js/prac.module.js" charset="utf-8"></script>
+        <script src="/assets/js/prac.controller.js" charset="utf-8"></script>
+    </body>
+</html>
